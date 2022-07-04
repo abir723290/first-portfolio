@@ -1,6 +1,6 @@
 body{
     font-family: 'Anton', sans-serif;
-    margin: 0;
+    margin: 0 ;
 }
 h1{
     font-size: 50px;     
@@ -8,8 +8,12 @@ h1{
    .crimson-color{
     color: rgb(234, 148, 87);
    }
-   section{
+   .first-section{
     display: flex;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
    }
    .half-width{
     width: 50%;
@@ -28,6 +32,25 @@ h1{
   }.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+  }
+  .dream-big{
+    display: flex;
+   
+  }
+  .dream-image{
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 30px;
+  }
+  .dream-line{
+    margin-left: 15%;
+    color: rgb(0, 0, 0);
+  }
+  .dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
   }
   
 
