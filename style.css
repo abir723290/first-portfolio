@@ -1,56 +1,77 @@
 body{
     font-family: 'Anton', sans-serif;
     margin: 0 ;
+    background-color: rgb(0, 114, 131);
 }
 h1{
     font-size: 50px;     
    }
    .crimson-color{
-    color: rgb(234, 148, 87);
-   }
+    color: rgb(0, 0, 0);
+    }
+ 
    .first-section{
     display: flex;
     margin-bottom: 5%;
     margin-top: 3%;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
    }
    .half-width{
     width: 50%;
     margin-left: 2%;
+    
    }
    
   .half-width-img{
     padding-right: 5%;
-    border-radius: 30px;
+    border-radius: 50%;
+    margin-top: 2%;
   }
   .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(0, 162, 238), rgb(37, 255, 95));
     padding: 10px 40px;
     border-radius: 10px;
-  }.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
   }
-  .dream-big{
-    display: flex;
-   
-  }
+  
+  
   .dream-image{
-    margin-left: 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 50%;
   }
   .dream-line{
     margin-left: 15%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-bottom: 5%;
   }
   .dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
     background-position: right;
+    margin-top: 0%;
+    color: azure;
+    display: flex;
   }
+  .experiences{
+    display: flex;
+  }
+.flexible{
+  display: flex;
   
-
+}
+.full-stack-web-developer-baby-web-developer{
+  width: 50%;
+  padding-left: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 40px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-top: 10px solid green ;
+}
+.full-stack-web-developer{
+  color: aqua;
+}
+footer{
+  text-align: center;
+}
